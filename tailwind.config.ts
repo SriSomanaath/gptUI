@@ -16,7 +16,12 @@ const config: Config = {
       colors: {
         buttonBackground: '#ff4820',
         appBackgroundFrom: "#27a6d0",
-        appBackgroundTo: "#021731"
+        appBackgroundTo: "#021731",
+        textGradientStart: "#ad67f9",
+        textGradientVia: "#d17faf",
+        textGradientFrom: "#f1966c",
+        contentTextColor:"#81afdd",
+        inputBoxColor:"#052d56"
       }
     },
   },
