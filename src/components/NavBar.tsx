@@ -26,7 +26,7 @@ const NavBar = () => {
               <Link spy={true} smooth={true} to="CAREERS"><li>Library</li></Link>
             </ul>
           </div>
-          <div className="lg:flex md:flex lg:flex-1 items-center justify-end font-normal">
+          <div className="lg:flex md:flex lg:flex-1 items-center justify-end font-normal max-sm:pr-2">
           <button onClick={handleClick} className="lg:hidden absolute right-4 top-2 mt-2">
                 {click ? 
                   <Image
