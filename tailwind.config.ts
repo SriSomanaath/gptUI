@@ -15,6 +15,8 @@ const config: Config = {
       },
       colors: {
         buttonBackground: '#ff4820',
+        appBackgroundFrom: "#27a6d0",
+        appBackgroundTo: "#021731"
       }
     },
   },

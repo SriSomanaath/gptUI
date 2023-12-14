@@ -4,7 +4,7 @@ import { About,  Blog,  Content,  Footer,  Hero,  NavBar,  OpenAI} from "@/compo
 
 export default function Home() {
   return (
-    <main className="bg-sky-950">
+    <main className="bg-gradient-to-b from-appBackgroundTo to-appBackgroundFrom dark:from-appBackgroundFrom to-appBackgroundTo">
       <NavBar />
       <Hero />
       <About />
