@@ -54,7 +54,7 @@ const NavBar = () => {
                   <Link spy={true} smooth={true} to="SERVICES"><li>Case Studies</li></Link>
                   <Link spy={true} smooth={true} to="CAREERS"><li>Library</li></Link>
                 </ul>
-                <div className=" flex flex-col max-sm:flex max-sm:flex-col sm:flex sm:flex-row lg:relative lg:-top-6">
+                <div className=" flex flex-col max-sm:flex max-sm:flex-col sm:flex sm:flex-row lg:relative lg:-top-7">
                   <button className="text-white lg:mr-2 max-sm:mb-2 sm:mb-0 sm:mr-2 max-sm:text-left">
                     Sign in
                   </button>
