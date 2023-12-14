@@ -4,7 +4,7 @@ import { About,  Blog,  Content,  Footer,  Hero,  NavBar,  OpenAI} from "@/compo
 
 export default function Home() {
   return (
-    <main>
+    <main className="bg-sky-950">
       <NavBar />
       <Hero />
       <About />
