@@ -55,10 +55,10 @@ const NavBar = () => {
                   <Link spy={true} smooth={true} to="CAREERS"><li>Library</li></Link>
                 </ul>
                 <div className=" flex flex-col max-sm:flex max-sm:flex-col sm:flex sm:flex-row lg:relative lg:-top-7">
-                  <button className="text-white lg:mr-2 max-sm:mb-2 sm:mb-0 sm:mr-2 max-sm:text-left">
+                  <button className="text-white lg:mr-2 max-sm:mb-0 max-sm:mb-0 max-sm:mr-2 max-sm:text-left">
                     Sign in
                   </button>
-                  <button className="text-white bg-buttonBackground lg:pt-2 lg:pr-6 lg:pl-6 lg:pb-2 rounded-sm max-sm:mt-2 sm:mt-0 max-sm:text-left">
+                  <button className="text-white bg-buttonBackground lg:pt-2 max-sm:pt-0 lg:pr-6 lg:pl-6 lg:pb-2 rounded-sm max-sm:rounded-md max-sm:mt-2 sm:mt-0 max-sm:text-left">
                     Sign up
                   </button>
                 </div>
