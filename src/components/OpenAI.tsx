@@ -2,7 +2,8 @@ import Image from 'next/image'
 
 const OpenAI = () => {
   return (
-    <main className="lg:ml-24 flex lg:grid lg:grid-cols-2 max-sm:flex-col">
+  <main>
+    <div className="lg:ml-24 flex lg:grid lg:grid-cols-2 max-sm:flex-col">
       <div className="flex">
             <Image
               src="/possibility.png"
@@ -27,6 +28,18 @@ const OpenAI = () => {
               <span className="text-sm text-buttonBackground mt-4">
                 Request Early Access to Get Started
               </span>
+      </div>
+    </div>
+    <div className="p-6 lg:grid lg:grid-cols-2 justify-between rounded-lg bg-gradient-to-r from-textGradientStart via-textGradientVia to-textGradientFrom mt-10 flex max-sm:flex-col ml-24 mr-24">
+        <div className="flex-grow">
+          <h6 className="text-sm">Request Early Access to Get</h6>
+          <h2 className="text-2xl font-bold">Register today & start exploring the endless possibilities.</h2>
+        </div>
+        <div className="mt-4 flex lg:items-center lg:justify-end">
+          <button className="bg-black rounded-full text-white pl-6 pr-6 pt-2 pb-2 text-sm">
+            Get Started
+          </button>
+        </div>
       </div>
     </main>
   ) 
