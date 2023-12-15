@@ -5,7 +5,8 @@ const Content = () => {
     <main className='flex flex-row justify-around'>
       <div className="m-24 flex max-sm:flex-col">
         <div className="flex flex-col max-sm:flex-col">
-          <span className="text-5xl pr-28 max-sm:text-4xl mb-6 pb-4 bg-gradient-to-r from-textGradientStart via-textGradientVia to-textGradientFrom font-bold inline-block text-transparent bg-clip-text">The Future is Now and
+          <span className="text-5xl pr-28 max-sm:text-4xl mb-6 pb-4 bg-gradient-to-r from-textGradientStart via-textGradientVia to-textGradientFrom font-bold inline-block text-transparent bg-clip-text">
+          The Future is Now and
           <br />
           You Just Need To Realize 
           <br />
