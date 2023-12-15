@@ -76,7 +76,9 @@ const Footer = () => {
                   </div>
                 </div>
               </div>
-
+              <div>
+                <span className="flex flex-col items-center justify-center text-white max-sm:mt-20 mt-28">All rights reserved</span>
+              </div>
       </main>
 
   )
