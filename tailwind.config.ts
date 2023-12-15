@@ -21,7 +21,8 @@ const config: Config = {
         textGradientVia: "#d17faf",
         textGradientFrom: "#f1966c",
         contentTextColor:"#81afdd",
-        inputBoxColor:"#052d56"
+        inputBoxColor:"#052d56",
+        AboutBackgroundColor: "#083361"
       }
     },
   },
